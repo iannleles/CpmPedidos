@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Domain", "CpmPedidos.Domain\CpmPedidos.Domain.csproj", "{EBDF968D-DB3E-46E8-ADB7-40BC5396BDB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Interface", "CpmPedidos.Interface\CpmPedidos.Interface.csproj", "{8C0B8BE8-A511-48E0-971F-658D22072055}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EBDF968D-DB3E-46E8-ADB7-40BC5396BDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDF968D-DB3E-46E8-ADB7-40BC5396BDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDF968D-DB3E-46E8-ADB7-40BC5396BDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0B8BE8-A511-48E0-971F-658D22072055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0B8BE8-A511-48E0-971F-658D22072055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0B8BE8-A511-48E0-971F-658D22072055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0B8BE8-A511-48E0-971F-658D22072055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
