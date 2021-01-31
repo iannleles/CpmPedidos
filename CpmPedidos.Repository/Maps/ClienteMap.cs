@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace CpmPedidos.Repository
 {
-    public class CidadeMap : BaseDomainMap<Cidade>
+    public class ClienteMap : BaseDomainMap<Cliente>
     {
-        CidadeMap () : base("tb_cidade"){ }
+        ClienteMap () : base("tb_cliente"){ }
 
-        public override void Configure(EntityTypeBuilder<Cidade> builder)
+        public override void Configure(EntityTypeBuilder<Cliente> builder)
         {
             base.Configure(builder);
         }
