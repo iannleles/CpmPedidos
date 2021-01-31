@@ -21,5 +21,7 @@ namespace CpmPedidos.Domain
 
         public virtual Cidade Cidade { get; set; }
 
+        public virtual Cliente Cliente { get; set; }
+
     }
 }
